@@ -11,7 +11,7 @@
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 18em;
+		width: 13.5em;
 		z-index: 10000;
 	}
 
@@ -124,7 +124,7 @@
     }
 
     .wrapper.style1-alt {
-        background-color: #7dc0fc;
+        background-color: #85b1d4;
     }
 
     .wrapper.fullscreen {
@@ -360,6 +360,7 @@
 		button:hover,
 		.button:hover {
 			border-color: rgba(10, 104, 245, 0.959) !important;
+            text-decoration: rgba(10, 104, 245, 0.959);
 		}
 
 /* Spotlights */
