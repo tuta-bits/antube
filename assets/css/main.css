@@ -566,6 +566,22 @@
         text-decoration: none;
         padding: 10px;
     }
+
+    #contact {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		cursor: default;
+		padding: 1.75em 2em;
+	}
+
+    #contact > nav > ul > li {
+        display: inline-block;
+        margin-left: 1.75em;
+        padding: 0;
+        vertical-align: middle;
+    }
   
 /* Footer */
 
@@ -581,6 +597,10 @@
             border-bottom-color: transparent;
         }
 
+
+        #footer > .inner > .menu {
+            color: #4C565E;
+        }
 
 /* Menu */
 
@@ -642,6 +662,7 @@
         vertical-align: middle;
         color: #36a1f8;
     }
+
 
     #header > nav > ul > li a {
         border: 0;
