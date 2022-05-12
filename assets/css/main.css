@@ -598,6 +598,10 @@
         }
 
 
+        #footer > .inner > .menu {
+            color: #4C565E;
+        }
+
 /* Menu */
 
 	ul.menu {
